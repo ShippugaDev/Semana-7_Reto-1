@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lexend+Deca:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --size: 0.25rem;
+    --font-family-primary: 'Montserrat', sans-serif;
+    --primary-color: #2f80ed;
+    --secondary-color: #4f4f4f;
+    --tertiary-color: #828282;
+}
+
+.a-items-center {
+    align-items: center;
+}
+
+.a-content-center {
+    align-content: center;
+}
+
+body {
+    background-color: rgb(231, 232, 233);
+}
+
+.btn-blue {
+    background-color: var(--primary-color);
+    padding: calc(var(--size)*2) calc(var(--size)*8);
+    border-radius: calc(var(--size)*2);
+    border: none;
+    color: white;
+
+}
+
+.btn-classic {
+    background-color: transparent;
+    padding: calc(var(--size)*2) calc(var(--size)*8);
+    border-radius: calc(var(--size)*2);
+    border: calc(var(--size)*0.5) solid var(--primary-color);
+    color: var(--primary-color)
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.container1 {
+
+    background-color: #ffffff;
+    padding: calc(var(--size)*4);
+    border-radius: calc(var(--size)*2);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-top: 40px;
+}
+
+.container_img {
+    width: 100%;
+    max-width: 400px;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.d-flex-column {
+    flex-direction: column;
+}
+
+.d-flex-1 {
+    flex: 1;
+}
+
+.d-flex-2 {
+    flex: 2;
+}
+
+.d-flex-3 {
+    flex: 3;
+}
+
+.d-grid-1-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.d-grid-1-2 {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.d-grid-area_1 {
+
+    grid-row: 1/3
+}
+
+.d-grid-area_2 {
+
+    grid-row: 1/2
+}
+
+.footer {
+    margin: 0 auto;
+    text-align: center;
+    color: var(--tertiary-color);
+    font-size: calc(var(--size)*3.5);
+}
+
+.f-weight {
+    font-weight: 600;
+}
+
+.f-family-primary {
+    font-family: var(--font-family-primary);
+}
+
+.f-size-3_5 {
+    font-size: calc(var(--size)*3.5);
+}
+
+.f-size-4 {
+    font-size: calc(var(--size)*4);
+}
+
+.f-size-4_5 {
+    font-size: calc(var(--size)*4.5);
+}
+
+.f-size-6 {
+    font-size: calc(var(--size)*6);
+}
+
+.f-weight-light {
+    font-weight: 600;
+}
+
+.f-weight-light--small {
+    font-weight: 400;
+}
+
+.f-color-primary {
+    color: var(--primary-color);
+}
+
+.f-color-secondary {
+    color: var(--secondary-color);
+}
+
+.f-color-tertiary {
+    color: var(--tertiary-color);
+}
+
+.f-color-black {
+    color: #000000;
+}
+
+.g-1 {
+    gap: calc(var(--size)*1);
+}
+
+.g-2 {
+    gap: calc(var(--size)*2);
+}
+
+.g-3 {
+    gap: calc(var(--size)*3);
+}
+
+.g-4 {
+    gap: calc(var(--size)*4);
+}
+
+.g-5 {
+    gap: calc(var(--size)*5);
+}
+
+.g-6 {
+    gap: calc(var(--size)*6);
+}
+
+.j-content-space-between {
+    justify-content: space-between;
+}
+
+.j-content-center {
+    justify-content: center;
+}
+
+.link {
+    text-decoration: none;
+    color: var(--primary-color);
+    font-size: calc(var(--size)*4);
+}
+
+.margin-2 {
+    margin: 0 0 calc(var(--size)*2);
+}
+
+.margin-2_5 {
+    margin: 0 0 calc(var(--size)*2.5);
+}
+
+.margin-4 {
+    margin: 0 0 calc(var(--size)*4);
+}
+
+.margin-8_75 {
+    margin: 0 0 calc(var(--size)*8.75);
+}
+
+.margin-block {
+    margin-block: calc(var(--size)*4);
+}
+
+img {
+    width: 100%;
+}
+
+.pd-1 {
+    padding: calc(var(--size)*1);
+}
+
+.pd-5 {
+    padding: calc(var(--size)*5);
+}
+
+.pd-10 {
+    padding: calc(var(--size)*10);
+}
+
+.pd-2 {
+    padding: calc(var(--size)*2);
+}
+
+.pd-5-0 {
+    padding: calc(var(--size)*5) calc(var(--size)*0);
+}
+
+.pc {
+    color: #E0E0E0;
+}
+
+.shippuga {
+    color: #000
+}
