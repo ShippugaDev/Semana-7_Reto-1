@@ -247,3 +247,30 @@ img {
 .shippuga {
     color: #000
 }
+
+@media (max-width: 768px) {
+
+    .d-grid-1-1,
+    .d-grid-1-1 {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+
+}
+
+@media (max-width: 1020px) {
+
+    .d-grid-1-2 {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 520px) {
+
+    .d-grid-1-1,
+    .d-grid-1-2 {
+        grid-template-columns: 1fr;
+    }
+}
